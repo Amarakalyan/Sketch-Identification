@@ -1,0 +1,28 @@
+body{
+    background-color: aqua;
+}
+h1{
+    background-color: aquamarine;
+    color: blue;
+    font-family: 'Lucida Sans';
+}
+#show_sketch{
+    float: right;
+}
+p{
+    font-size: 25px;
+    font-family: 'Lucida Sans';
+    color: blue;
+    margin: 20px;
+}
+canvas{
+    border: 5px solid rgb(240, 52, 52);
+    animation-name :oggy;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes oggy{
+    from {box-shadow: 1px 1px 38px chartreuse;}
+    to{box-shadow: 1px 1px 38px rgb(0, 4, 255);}
+}

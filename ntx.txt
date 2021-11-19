@@ -1,0 +1,1 @@
+Doodlenet is a pre-trained neural network model developed by Google, which classifies and labels sketches that are hand-drawn by users. Now, these sketches are classified in 345 categories out of which each category has 50 million doodles
